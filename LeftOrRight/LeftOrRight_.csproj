@@ -6,4 +6,8 @@
     <RootNamespace>LeftOrRight</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="IIllegbleMove.cs" />
+  </ItemGroup>
+
 </Project>

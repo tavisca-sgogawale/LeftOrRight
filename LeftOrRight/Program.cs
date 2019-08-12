@@ -8,7 +8,7 @@ namespace LeftOrRight_
         public int MaxDistance(string input)
         {
             int maxDistance = 0;
-           IlegalMove mov;
+           
             IMovement move = Move.TryParseProgramMove(input);
             maxDistance = move.MaxDistance(input);
             return maxDistance;
